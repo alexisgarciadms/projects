@@ -4,10 +4,11 @@ import java.net.InetAddress;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-/*UDP client that implemenets the KKP 1.0.0 protocol. Payload of each packet is a String 
+/* UDP client that implemenets the KKP 1.0.0 protocol. Payload of each packet is a String 
  * seperated into three parts seperated by "|". Part one includes: "KKP/1.0.0, second part 
  * includes a command, and third part is options for the command. All stated in the KKP 1.0.0
- * protocol.*/
+ * protocol.
+ * -Alexis U Garcia */
 
 public class knockKnock {
 	
