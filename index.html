@@ -1,0 +1,165 @@
+<!-- Project V.1 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Carillo Home Improvement | Welcome</title>
+	<link rel="stylesheet" type="text/css" 
+	href="css/style.css">
+</head>
+<body>
+	<!--Header with a navigation bar that will be displayed in page-->
+	<header>
+		<div class="container">
+			<div id="branding">
+				<h1>Carillo Home Improvement, LLC</h1>
+			</div>
+			<nav>
+				<ul>
+					<li class="current tab-border"><a href="index.html">Home</a></li>
+					<li><a href="kitchenremodeling.html">Kitchen Remodeling</a></li>
+					<li><a href="bathroomremodeling.html">Bathroom Remodeling</a></li>
+					<li><a href="reflooring.html">Re-Flooring</a></li>
+					<li><a href="additions.html">Additions</a></li>
+					<li><a href="contactus.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>	
+	</header>
+	<!--Buttons that will be displayed on the left side of each page -->
+	<div class="side-buttons-placement">
+		<button id="side-button1"><img src="./img/225155.png"></button><br>
+		<button id="side-button2"><img src="./img/filepic.png"></button><br>
+		<button id="side-button3"><img src="./img/emailpic.png"></button>
+		<!--First button that will be displayed-->
+		<div class="modal" id="modal">
+			<div class="modal-header">
+				<div class="modal-title">
+					Carillo Home Improvement, LLC
+				</div>	
+				<button class="close-button" id="close-button">&times;</button>
+			</div>
+			<div class="popup-body">
+				<h3>Let's Talk!</h3>
+				<p id="call-us-box">
+					<a href="skype.com">(973) 879-6804</a>
+				</p>
+			</div>
+		</div>
+		<!--Second button that will be displayed-->
+		<div class="modal" id="modal2">
+			<div class="modal-header">
+				<div class="modal-title">
+					Carillo Home Improvement, LLC
+				</div>	
+				<button class="close-button" id="close-button2">&times;</button>
+			</div>
+			<div class="popup-body2">
+				<h3>Send Us a Form</h3>
+				<form  action="" id="popup-form">
+					<!--We are creating a fieldset that will require info to be entered-->
+					<fieldset>
+						<legend>Client Information</legend>
+						<label>
+							<input type="text" placeholder="First Name" name="first-name"  required="required"/></label>
+						<label>
+							<input type="text" placeholder="Last Name" name="last-name" required="required"/></label><br />
+						<label>
+							<input type="text" placeholder="Billing Address" name="billing-adress" required="required"></label><br />
+						<label>
+							<input type="text" placeholder="Phone" name="phone-number" required="required"></label><br />
+					</fieldset>
+					<fieldset id="fieldset">
+						<legend>Services</legend>
+						<label>Type of Home<br />
+							<select name="home-type">
+								<option value="condo">Condo</option>
+								<option value="townhouse">Townhouse</option>
+								<option value="single-family">Single Family</option>
+								<option value="Other">Other</option>
+							</select><br />
+						</label>	
+						<label>Service Desired<br />
+							<select name="service-desired">
+								<option value="kitchenremodeling">Kitchen Remodel</option>
+								<option value="bathroomremodeling">Bathroom Remodel</option>
+								<option value="painting">Painting</option>
+								<option value="roof">Roof/Siding</option>
+								<option value="handyman">Handyman Services</option>
+								<option value="other">Other</option>
+							</select>
+						</label>	
+					</fieldset>
+					<button class="contact-us-button">Submit</button>
+				</form>
+			</div>
+		</div>	
+		<div id="overlay"></div>	
+	</div>
+	<!--A showcase that will be displayed under the header. Will only be shown in homepage-->
+	<section id="showcase">
+		<div class="container">
+			<h1>Who We Are</h1>
+			<p>Looking to re-envision your home? Whether you’ve spent years in the same home and have decided it’s time for an update or you just moved in and are ready to get to work, we’ve got you covered. 
+
+			For the last 16 years. Carrillo Home Improvement have been committed to our customers. We have been servicing the Dover, New Jersey area, including Bergen County, Morris County, Essex County, and Passaic County. Now we’re looking to help put you one step closer to your dream home!</p>
+		</div>
+	</section>
+	<!--Boxes with pictures that will only be shown in hompage -->
+	<section id="boxes">
+		<div class="container">
+			<div class="box" id="redirectToBathroom">
+				<img src="./img/IMG_5921.jpg">
+				<h3>Bathroom Remodeling</h3>
+			</div>	
+			<div class="box" id="redirectToKitchen">
+				<img src="./img/IMG_5922.jpg">
+				<h3>Kitchen Remodeling</h3>
+			</div>
+			<div class="box" id="redirectToReflooring">
+				<img src="./img/images.jfif">
+				<h3>Re-flooring</h3>
+			</div>
+			<div class="box" id="redirectToAdditions">
+				<img src="./img/IMG_5924.jpg">
+				<h3>Additions</h3>
+			</div>				
+		</div>	
+	</section>
+	<!--A section under the pictures the will only be show in the homepage. Content contains business info-->
+	<section id="information">
+		<div class="block">
+			<h1>Hours</h1>
+			<p>Mon - Fri: 7:00am - 5:00pm</p>
+			<p>Sat - Sun: Closed</p>
+		</div>
+		<div class="block">
+			<h1>Contacts</h1>
+			<p>Phone: (973) 879-6804</p>
+			<p>Email: josea446@hotmail.com</p>
+		</div>	
+		<div class="block">
+			<h1>Payments Options</h1>
+			<p>Check</p>
+			<p>Card</p>
+		</div>
+	</section>
+	<!--A newsletter section that will have give an option to enter an email-->
+	<section id="newsletter">
+		<div class="container">
+			<h1>Reach Out To the Team</h1>
+			<form action="">
+				<input type="email" placeholder="Enter Email...">
+				<button type="Sumbit" class="newsletter-button">Submit</button>
+			</form>
+		</div>
+	</section>	
+	<footer>
+		<p>Content, including images, displayed on this website is protected by copyright laws. Copyright, &copy; 2022</p>
+	</footer>
+
+	<script src="script/main.js"></script>
+</body>
+</html>
